@@ -1,0 +1,166 @@
+.imagemDoPrato {
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  min-width: 122px;
+}
+.uploadsimpleIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.selecioneImagem {
+  position: relative;
+  font-size: var(--roboto-smaller-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--poppins-100-medium);
+  color: var(--light-light-100);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-13xl);
+  background-color: var(--dark-dark-800);
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-darkslategray);
+}
+.formcontrol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.nome {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+}
+.selectionfield {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--dark-dark-800);
+  align-self: stretch;
+  height: 48px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-sm);
+  box-sizing: border-box;
+  font-family: var(--roboto-smaller-regular);
+  font-size: var(--roboto-small-regular-size);
+  color: var(--light-light-500);
+  min-width: 250px;
+}
+.formcontrol1,
+.formcontrolWrapper {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.formcontrol1 {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.formcontrolWrapper {
+  flex-direction: row;
+  min-width: 301px;
+}
+.categoria,
+.formControlImage {
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  min-width: 69px;
+}
+.formControlImage {
+  line-height: 160%;
+  min-width: 55px;
+}
+.selectionDropdown {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 55px;
+}
+.chevronDownIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.selectionfield1 {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--dark-dark-800);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-sm);
+}
+.formcontrol2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--roboto-smaller-regular-size);
+}
+.categoriaParent,
+.formcontrolParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.categoriaParent {
+  width: 364px;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.formcontrolParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--roboto-small-regular-size);
+  color: var(--light-light-400);
+  font-family: var(--roboto-smaller-regular);
+}
+@media screen and (max-width: 700px) {
+  .formcontrolParent {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .formcontrolWrapper {
+    gap: var(--gap-base);
+  }
+  .selectionfield1 {
+    flex-wrap: wrap;
+  }
+}

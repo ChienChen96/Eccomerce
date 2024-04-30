@@ -1,0 +1,224 @@
+.frameChild {
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+.admin,
+.foodExplorer {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.foodExplorer {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.admin {
+  line-height: 20px;
+  display: inline-block;
+  min-width: 34px;
+}
+.searchResultLabel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs);
+  margin-top: -6px;
+  font-size: var(--font-size-xs);
+  color: var(--tints-cake-200);
+}
+.adminLabel,
+.backButton,
+.polygonParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.adminLabel {
+  flex: 1;
+  flex-direction: column;
+}
+.backButton,
+.polygonParent {
+  box-sizing: border-box;
+}
+.polygonParent {
+  align-self: stretch;
+  height: 39px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-2xs) var(--padding-4xs) 0;
+  gap: var(--gap-3xs);
+}
+.backButton {
+  width: 197px;
+  flex-direction: column;
+  padding: var(--padding-8xs-5) 0 0;
+}
+.searchIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.busquePorPratos {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--roboto-small-regular-size);
+  line-height: 100%;
+  font-family: var(--roboto-smaller-regular);
+  color: var(--light-light-500);
+  text-align: left;
+  white-space: nowrap;
+}
+.busquePorPratosOuIngredienWrapper {
+  width: 254px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.selectionfield,
+.text {
+  display: flex;
+  justify-content: center;
+}
+.selectionfield {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-xl);
+  background-color: var(--dark-dark-900);
+  flex: 1;
+  border-radius: var(--br-8xs);
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 100%;
+  align-items: center;
+  width: 100%;
+  white-space: nowrap;
+  height: 100%;
+}
+.textWrapper {
+  height: 16px;
+  width: 108px;
+  position: relative;
+  display: none;
+  text-align: center;
+  font-size: var(--roboto-small-regular-size);
+  color: var(--light-light-300);
+}
+.backButtonParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.receiptIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  display: none;
+}
+.meuPedido0 {
+  position: relative;
+  font-size: var(--roboto-smaller-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--poppins-100-medium);
+  color: var(--light-light-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 79px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-49xl-5);
+  background-color: var(--tints-tomato-100);
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-brown);
+}
+.signoutIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.component2,
+.footerInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.component2 {
+  align-self: stretch;
+  background-color: var(--dark-dark-600);
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-104xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--roboto-bigger-bold-size);
+  color: var(--light-light-100);
+  font-family: var(--roboto-smaller-regular);
+}
+@media screen and (max-width: 925px) {
+  .busquePorPratosOuIngredienWrapper {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .busquePorPratos {
+    display: none;
+  }
+  .busquePorPratosOuIngredienWrapper {
+    width: 0;
+  }
+  .component2 {
+    gap: var(--gap-base);
+    padding-left: var(--padding-42xl);
+    padding-right: var(--padding-42xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .backButtonParent {
+    gap: var(--gap-base);
+  }
+  .component2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

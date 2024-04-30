@@ -1,0 +1,47 @@
+.frameParent {
+  width: 1120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.editarPrato,
+.editarPratoInner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.editarPratoInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) var(--padding-57xl) var(--padding-xl);
+  max-width: 100%;
+}
+.editarPrato {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-dark-400);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs-5);
+  gap: var(--gap-21xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 925px) {
+  .editarPratoInner {
+    padding-bottom: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .frameParent {
+    gap: var(--gap-base);
+  }
+  .editarPrato {
+    gap: var(--gap-xl);
+  }
+}

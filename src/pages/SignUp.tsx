@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import FrameComponent4 from "../components/FrameComponent4";
+import FrameComponent4 from "../components/FrameComponent41";
 import styles from "./SignUp.module.css";
 
 const SignUp: FunctionComponent = () => {

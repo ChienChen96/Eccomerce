@@ -1,0 +1,183 @@
+.caretleftIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.ingredientsListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.voltar {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 74px;
+}
+.dishNameLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dishIcon {
+  width: 390.1px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.incluir {
+  position: relative;
+  font-size: var(--roboto-smaller-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--poppins-100-medium);
+  color: var(--light-light-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 83px;
+}
+.button,
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button {
+  border-radius: var(--br-8xs);
+  background-color: var(--tints-tomato-100);
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+  white-space: nowrap;
+}
+.buttonWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  justify-content: flex-start;
+}
+.rabaneteTag,
+.tomateTag {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.tomateTag {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.rabaneteTag {
+  flex: 1;
+  padding: 0 0 var(--padding-25xl);
+  box-sizing: border-box;
+  min-width: 447px;
+  min-height: 344px;
+}
+.dishNameLabelParent,
+.paoNaanTag,
+.rabaneteTag {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.paoNaanTag {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 47.4px;
+}
+.dishNameLabelParent {
+  width: 1124.5px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-23xl);
+}
+.selectionFieldContainerInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.prato,
+.selectionFieldContainer {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.selectionFieldContainer {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-13xl);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  text-align: left;
+  font-size: var(--roboto-bigger-bold-size);
+  color: var(--light-light-300);
+  font-family: var(--poppins-100-medium);
+}
+.prato {
+  width: 1368px;
+  height: 824px;
+  background-color: var(--dark-dark-400);
+  align-items: flex-start;
+  padding: 0 0 var(--padding-212xl);
+  box-sizing: border-box;
+  gap: var(--gap-136xl-4);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 950px) {
+  .dishIcon {
+    flex: 1;
+  }
+  .paoNaanTag {
+    flex-wrap: wrap;
+  }
+  .prato {
+    height: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .tomateTag {
+    gap: var(--gap-5xl);
+  }
+  .rabaneteTag {
+    min-width: 100%;
+  }
+  .paoNaanTag {
+    gap: var(--gap-5xl);
+  }
+  .dishNameLabelParent {
+    gap: var(--gap-2xl);
+  }
+  .selectionFieldContainer {
+    gap: var(--gap-base);
+  }
+  .prato {
+    gap: var(--gap-59xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .voltar {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .prato {
+    gap: var(--gap-20xl);
+  }
+}

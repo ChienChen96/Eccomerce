@@ -1,0 +1,100 @@
+.descrio,
+.faleBrevementeSobre {
+  position: relative;
+  font-size: var(--roboto-small-regular-size);
+  line-height: 100%;
+  font-family: var(--roboto-smaller-regular);
+  text-align: left;
+}
+.descrio {
+  align-self: stretch;
+  color: var(--light-light-400);
+}
+.faleBrevementeSobre {
+  flex: 1;
+  color: var(--light-light-500);
+  display: inline-block;
+  max-width: 100%;
+}
+.selectionfield {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--dark-dark-800);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-sm) var(--padding-123xl);
+  box-sizing: border-box;
+}
+.dishDetails,
+.formcontrol,
+.selectionfield {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.formcontrol {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.dishDetails {
+  align-self: stretch;
+  flex-direction: row;
+}
+.incluir {
+  position: relative;
+  font-size: var(--roboto-smaller-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--poppins-100-medium);
+  color: var(--light-light-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 124px;
+}
+.button,
+.includeButton1 {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  border-radius: var(--br-8xs);
+  background-color: var(--tints-tomato-400);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+  white-space: nowrap;
+}
+.includeButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.formControlPrecoParent,
+.includeButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.formControlPrecoParent {
+  margin: 0;
+  align-self: stretch;
+  align-items: flex-end;
+}
+.includeButton {
+  width: 1120px;
+  align-items: flex-start;
+}
+@media screen and (max-width: 700px) {
+  .dishDetails,
+  .formControlPrecoParent,
+  .includeButton {
+    gap: var(--gap-base);
+  }
+}

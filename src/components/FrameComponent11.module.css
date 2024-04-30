@@ -1,0 +1,174 @@
+.ingredientes {
+  align-self: stretch;
+  line-height: 100%;
+}
+.ingredientes,
+.poNaan,
+.xIcon {
+  position: relative;
+}
+.poNaan {
+  font-size: var(--roboto-small-regular-size);
+  line-height: 100%;
+  font-family: var(--roboto-smaller-regular);
+  color: var(--light-light-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 70px;
+}
+.xIcon {
+  height: 8px;
+  width: 8px;
+}
+.formControlCategoria {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.signOutButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-base);
+  background-color: var(--light-light-600);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.adicionar {
+  position: relative;
+  font-size: var(--roboto-small-regular-size);
+  line-height: 100%;
+  font-family: var(--roboto-smaller-regular);
+  color: var(--light-light-500);
+  text-align: left;
+  display: inline-block;
+  min-width: 68px;
+}
+.plusIcon {
+  height: 8px;
+  width: 8px;
+  position: relative;
+}
+.adicionarParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.plusButton,
+.plusButtonInner {
+  border-radius: var(--br-5xs);
+  display: flex;
+}
+.plusButtonInner {
+  cursor: pointer;
+  border: 1px dashed var(--light-light-500);
+  padding: var(--padding-7xs) var(--padding-mini);
+  background-color: transparent;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.plusButton {
+  align-self: stretch;
+  background-color: var(--dark-dark-800);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-560xl) var(--padding-5xs)
+    var(--padding-5xs);
+  gap: var(--gap-base);
+}
+.formcontrol,
+.formcontrolWrapper {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.formcontrol {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.formcontrolWrapper {
+  flex-direction: row;
+}
+.preo {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+}
+.selectionfield {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--dark-dark-800);
+  align-self: stretch;
+  height: 48px;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-sm);
+  box-sizing: border-box;
+  font-family: var(--roboto-smaller-regular);
+  font-size: var(--roboto-small-regular-size);
+  color: var(--light-light-500);
+  min-width: 151px;
+}
+.formcontrol1,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.formcontrol1 {
+  width: 251px;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--roboto-small-regular-size);
+  color: var(--light-light-400);
+  font-family: var(--roboto-smaller-regular);
+}
+@media screen and (max-width: 925px) {
+  .plusButton {
+    flex-wrap: wrap;
+    padding-right: var(--padding-270xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .formcontrolWrapper {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .plusButton {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .formcontrolWrapper {
+    gap: var(--gap-base);
+  }
+}

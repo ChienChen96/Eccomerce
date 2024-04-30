@@ -1,0 +1,402 @@
+.foodExplorerIcon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  min-height: 30px;
+}
+.foodExplorer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.buttonInner,
+.foodExplorerParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.foodExplorerParent {
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-2xs) 0 0;
+  gap: var(--gap-3xs);
+}
+.buttonInner {
+  flex-direction: column;
+  padding: var(--padding-4xs) 0 0;
+}
+.searchIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.busquePorPratos {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--roboto-small-regular-size);
+  line-height: 100%;
+  font-family: var(--roboto-smaller-regular);
+  color: var(--light-light-500);
+  text-align: left;
+  white-space: nowrap;
+}
+.busquePorPratosOuIngredienWrapper,
+.selectionfield {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.busquePorPratosOuIngredienWrapper {
+  width: 344px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.selectionfield {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-xl);
+  background-color: var(--dark-dark-900);
+  flex: 1;
+  border-radius: var(--br-8xs);
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.text {
+  height: 26px;
+  width: 140px;
+  position: relative;
+  font-size: var(--roboto-small-regular-size);
+  line-height: 160%;
+  color: var(--light-light-300);
+  text-align: center;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.button,
+.selectionField {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.button {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-13xl);
+}
+.selectionField {
+  width: 810px;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.receiptIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.meuPedido0 {
+  position: relative;
+  font-size: var(--roboto-smaller-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--poppins-100-medium);
+  color: var(--light-light-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 83px;
+  white-space: nowrap;
+}
+.button1,
+.myOrder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-27xl-5);
+  background-color: var(--tints-tomato-100);
+  border-radius: var(--br-8xs);
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.signoutIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.navbar,
+.signoutWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.navbar {
+  align-self: stretch;
+  background-color: var(--dark-dark-600);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--roboto-bigger-bold-size);
+  color: var(--light-light-100);
+  font-family: var(--roboto-smaller-regular);
+}
+.caretleftIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.caretleftWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.voltar {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 74px;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dishIcon {
+  width: 390.1px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.frameInput {
+  margin: 0;
+  height: 28px;
+  width: 24px;
+}
+.includeButton {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 23px;
+}
+.plusIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  border-radius: var(--br-5xs);
+}
+.plusWrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.frameDiv,
+.frameWrapper,
+.plusWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex-direction: row;
+  gap: var(--gap-sm);
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.incluir {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 114px;
+}
+.button2,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button2 {
+  border-radius: var(--br-8xs);
+  background-color: var(--tints-tomato-100);
+  padding: var(--padding-xs) var(--padding-5xl);
+  white-space: nowrap;
+  text-align: center;
+  font-size: var(--roboto-smaller-regular-size);
+  color: var(--light-light-100);
+  font-family: var(--poppins-100-medium);
+}
+.frameContainer {
+  gap: 33px;
+}
+.saladaRavanello {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-29xl);
+}
+.dishParent,
+.saladaRavanello,
+.saladaRavanelloWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.saladaRavanelloWrapper {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-25xl);
+  box-sizing: border-box;
+  min-width: 447px;
+  min-height: 344px;
+}
+.dishParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 47.9px;
+  font-size: var(--roboto-big-bold-size);
+  font-family: var(--roboto-smaller-regular);
+}
+.frameParent,
+.headerInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1125px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+}
+.headerInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.header,
+.prato {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.header {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-5xl);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  text-align: left;
+  font-size: var(--roboto-bigger-bold-size);
+  color: var(--light-light-300);
+  font-family: var(--poppins-100-medium);
+}
+.prato {
+  width: 1368px;
+  height: 824px;
+  background-color: var(--dark-dark-400);
+  align-items: flex-start;
+  padding: 0 0 var(--padding-212xl);
+  box-sizing: border-box;
+  gap: var(--gap-136xl-4);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .busquePorPratosOuIngredienWrapper {
+    display: none;
+  }
+}
+@media screen and (max-width: 950px) {
+  .dishIcon {
+    flex: 1;
+  }
+  .dishParent {
+    flex-wrap: wrap;
+  }
+  .prato {
+    height: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .busquePorPratos {
+    display: none;
+  }
+  .busquePorPratosOuIngredienWrapper {
+    width: 0;
+  }
+  .navbar {
+    gap: var(--gap-base);
+  }
+  .saladaRavanello {
+    gap: var(--gap-5xl);
+  }
+  .saladaRavanelloWrapper {
+    min-width: 100%;
+  }
+  .dishParent {
+    gap: var(--gap-5xl);
+  }
+  .frameParent {
+    gap: var(--gap-2xl);
+  }
+  .prato {
+    gap: var(--gap-59xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .button {
+    gap: var(--gap-base);
+  }
+  .voltar {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .includeButton {
+    font-size: var(--roboto-small-regular-size);
+    line-height: 26px;
+  }
+  .frameContainer {
+    gap: var(--gap-base);
+  }
+  .prato {
+    gap: var(--gap-20xl);
+  }
+}

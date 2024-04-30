@@ -1,0 +1,205 @@
+.rabanetesFolhasVerdes,
+.saladaRavanello {
+  margin: 0;
+  position: relative;
+  line-height: 140%;
+  font-family: inherit;
+}
+.saladaRavanello {
+  font-size: inherit;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.rabanetesFolhasVerdes {
+  align-self: stretch;
+  font-size: var(--roboto-bigger-bold-size);
+  font-weight: 400;
+}
+.alface {
+  position: relative;
+  font-size: var(--roboto-smaller-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--poppins-100-medium);
+  color: var(--light-light-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 45px;
+}
+.tag {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  background-color: var(--dark-dark-1000);
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.tag1:hover,
+.tag2:hover,
+.tag3:hover,
+.tag4:hover,
+.tag5:hover,
+.tag:hover {
+  background-color: var(--color-dimgray-100);
+}
+.cebola {
+  position: relative;
+  font-size: var(--roboto-smaller-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--poppins-100-medium);
+  color: var(--light-light-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 49px;
+}
+.tag1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  background-color: var(--dark-dark-1000);
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.poNaan {
+  position: relative;
+  font-size: var(--roboto-smaller-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--poppins-100-medium);
+  color: var(--light-light-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 69px;
+}
+.tag2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  background-color: var(--dark-dark-1000);
+  flex: 1;
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 55px;
+  white-space: nowrap;
+}
+.pepino {
+  position: relative;
+  font-size: var(--roboto-smaller-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--poppins-100-medium);
+  color: var(--light-light-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 50px;
+}
+.tag3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  background-color: var(--dark-dark-1000);
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rabanete {
+  position: relative;
+  font-size: var(--roboto-smaller-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--poppins-100-medium);
+  color: var(--light-light-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 66px;
+}
+.tag4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  background-color: var(--dark-dark-1000);
+  flex: 1;
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 55px;
+}
+.tomate {
+  position: relative;
+  font-size: var(--roboto-smaller-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--poppins-100-medium);
+  color: var(--light-light-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 53px;
+}
+.tag5 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  background-color: var(--dark-dark-1000);
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ingredients,
+.saladaRavanelloParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ingredients {
+  width: 488px;
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.saladaRavanelloParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--poppins-500-medium-size);
+  color: var(--light-light-300);
+  font-family: var(--poppins-100-medium);
+}
+@media screen and (max-width: 950px) {
+  .saladaRavanello {
+    font-size: var(--poppins-400-medium-size);
+    line-height: 45px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .saladaRavanello {
+    font-size: var(--roboto-bigger-bold-size);
+    line-height: 34px;
+  }
+  .rabanetesFolhasVerdes {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .ingredients {
+    flex-wrap: wrap;
+  }
+}
