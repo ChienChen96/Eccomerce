@@ -1,0 +1,121 @@
+.entrar,
+.faaLogin {
+  position: relative;
+  font-weight: 500;
+  font-family: var(--poppins-100-medium);
+  color: var(--light-light-100);
+  text-align: center;
+}
+.faaLogin {
+  margin: 0;
+  align-self: stretch;
+  height: 68.8px;
+  font-size: var(--poppins-400-medium-size);
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.entrar {
+  font-size: var(--roboto-smaller-regular-size);
+  line-height: 24px;
+  display: inline-block;
+  min-width: 42px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-xl);
+  background-color: var(--tints-tomato-100);
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-brown);
+}
+.criarUmaConta {
+  position: relative;
+  font-size: var(--roboto-smaller-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--poppins-100-medium);
+  color: var(--light-light-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 117px;
+}
+.emailSenhaFields,
+.signIn {
+  display: flex;
+  box-sizing: border-box;
+}
+.emailSenhaFields {
+  margin: 0;
+  width: 476px;
+  border-radius: var(--br-base);
+  background-color: var(--dark-dark-700);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-45xl);
+  gap: var(--gap-13xl);
+  min-width: 476px;
+  max-width: 100%;
+}
+.signIn {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-dark-400);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 142.1px var(--padding-89xl) 141.1px var(--padding-134xl-9);
+  line-height: normal;
+  letter-spacing: normal;
+  gap: var(--gap-xl);
+}
+@media screen and (max-width: 1050px) {
+  .emailSenhaFields {
+    flex: 1;
+  }
+  .signIn {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .faaLogin {
+    font-size: var(--font-size-7xl);
+    line-height: 36px;
+  }
+  .emailSenhaFields {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 725px) {
+  .emailSenhaFields {
+    gap: var(--gap-base);
+    padding: var(--padding-23xl) var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .signIn {
+    padding-left: var(--padding-58xl);
+    padding-right: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .faaLogin {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .signIn {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

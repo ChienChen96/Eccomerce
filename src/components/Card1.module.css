@@ -1,0 +1,219 @@
+.dishIcon {
+  width: 176px;
+  height: 176px;
+  position: relative;
+  object-fit: cover;
+}
+.dishWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.vectorIcon {
+  height: 22px;
+  width: 24px;
+  position: relative;
+}
+.cardInner,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent {
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.cardInner {
+  justify-content: flex-end;
+  padding: 0 0 0 var(--padding-21xl);
+}
+.torradasDeParma {
+  margin: 0;
+  width: 256px;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: var(--poppins-100-medium);
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.alignmentAligner {
+  flex: 1;
+  position: relative;
+  line-height: 160%;
+}
+.text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--roboto-smaller-regular-size);
+  color: var(--light-light-400);
+}
+.strokeStyler {
+  flex: 1;
+  position: relative;
+  line-height: 52px;
+  white-space: nowrap;
+}
+.proximitySensor,
+.text1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text1 {
+  flex: 1;
+}
+.proximitySensor {
+  align-self: stretch;
+  padding: 0 var(--padding-5xl) 0 var(--padding-lg);
+  font-size: var(--poppins-400-medium-size);
+  color: var(--tints-cake-200);
+}
+.minusIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.blendBlender {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.proximityProvider {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 24px;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.plus {
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.snapSnapper {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.rotationRotator,
+.snapSnapper,
+.stepper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stepper {
+  flex-direction: row;
+  gap: var(--gap-sm);
+}
+.rotationRotator {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.incluir {
+  position: relative;
+  font-size: var(--roboto-smaller-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--poppins-100-medium);
+  color: var(--light-light-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 44px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--tints-tomato-100);
+  border-radius: var(--br-8xs);
+  justify-content: flex-start;
+}
+.button:hover {
+  background-color: var(--color-brown);
+}
+.button,
+.card,
+.opacityOperator,
+.scaleScaler {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.scaleScaler {
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.card,
+.opacityOperator {
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl) 0 var(--padding-5xl);
+  text-align: left;
+  font-size: var(--roboto-big-bold-size);
+}
+.card {
+  width: 304px;
+  border-radius: var(--br-5xs);
+  background-color: var(--dark-dark-200);
+  border: 1px solid var(--dark-dark-300);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-mid) var(--padding-25xl)
+    var(--padding-4xl);
+  gap: var(--gap-mini);
+  debug_commit: 1de1738;
+  text-align: center;
+  font-size: var(--roboto-bigger-bold-size);
+  color: var(--light-light-300);
+  font-family: var(--roboto-smaller-regular);
+}
+@media screen and (max-width: 1050px) {
+  .strokeStyler {
+    font-size: var(--font-size-7xl);
+    line-height: 41px;
+  }
+  .scaleScaler {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .stepper {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .strokeStyler,
+  .torradasDeParma {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .strokeStyler {
+    line-height: 31px;
+  }
+  .proximityProvider {
+    font-size: var(--roboto-small-regular-size);
+    line-height: 26px;
+  }
+  .card {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

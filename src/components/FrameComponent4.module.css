@@ -1,0 +1,58 @@
+.bebidas {
+  position: relative;
+  line-height: 45px;
+  font-weight: 500;
+}
+.frameChild {
+  position: absolute;
+  top: 0.3px;
+  left: 236.5px;
+  width: 223.5px;
+  height: 448px;
+  z-index: 1;
+}
+.cardParent {
+  height: 462px;
+  width: 583px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 127%;
+}
+.bebidasParent,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-312xl);
+  gap: var(--gap-8xl);
+  max-width: 100%;
+}
+.bebidasParent {
+  width: 1122.5px;
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-5xl-4);
+  text-align: left;
+  font-size: var(--poppins-400-medium-size);
+  color: var(--light-light-300);
+  font-family: var(--poppins-100-medium);
+}
+@media screen and (max-width: 1050px) {
+  .bebidas {
+    font-size: var(--font-size-7xl);
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bebidas {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+}

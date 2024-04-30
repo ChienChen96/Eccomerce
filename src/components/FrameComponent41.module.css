@@ -1,0 +1,50 @@
+.frameChild {
+  height: 47.5px;
+  width: 49.4px;
+  position: relative;
+  min-height: 48px;
+}
+.foodExplorer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 47.2px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.polygonParent,
+.signUpInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.polygonParent {
+  flex-direction: row;
+  gap: var(--gap-lgi);
+}
+.signUpInner {
+  flex-direction: column;
+  padding: var(--padding-232xl-6) 0 0;
+  box-sizing: border-box;
+  min-width: 324.0000000000009px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-23xl);
+  color: var(--light-light-100);
+  font-family: var(--roboto-smaller-regular);
+}
+@media screen and (max-width: 1050px) {
+  .signUpInner {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .foodExplorer {
+    font-size: var(--font-size-15xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .foodExplorer {
+    font-size: var(--font-size-6xl);
+  }
+}

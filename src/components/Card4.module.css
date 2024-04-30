@@ -1,0 +1,108 @@
+.pencilIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.pencilWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.dishIcon {
+  height: 176px;
+  width: 176px;
+  position: relative;
+  object-fit: cover;
+}
+.dishWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-27xl) 0 var(--padding-21xl);
+}
+.torradasDeParma {
+  width: 256px;
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+  font-family: var(--poppins-100-medium);
+}
+.cycleDetector {
+  flex: 1;
+  position: relative;
+  line-height: 160%;
+}
+.text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--roboto-smaller-regular-size);
+  color: var(--light-light-400);
+}
+.primAlgorithm {
+  flex: 1;
+  position: relative;
+  line-height: 52px;
+  white-space: nowrap;
+}
+.text1 {
+  flex: 1;
+  flex-direction: row;
+}
+.card,
+.dijkstraAlgorithm,
+.text1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dijkstraAlgorithm {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl) 0 var(--padding-lg);
+  font-size: var(--poppins-400-medium-size);
+  color: var(--tints-cake-200);
+}
+.card {
+  width: 304px;
+  border-radius: var(--br-5xs);
+  background-color: var(--dark-dark-200);
+  border: 1px solid var(--dark-dark-300);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-mid) var(--padding-35xl)
+    var(--padding-4xl);
+  gap: var(--gap-base-1);
+  debug_commit: 1de1738;
+  text-align: center;
+  font-size: var(--roboto-bigger-bold-size);
+  color: var(--light-light-300);
+  font-family: var(--roboto-smaller-regular);
+}
+@media screen and (max-width: 1050px) {
+  .primAlgorithm {
+    font-size: var(--font-size-7xl);
+    line-height: 41px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .primAlgorithm,
+  .torradasDeParma {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .primAlgorithm {
+    line-height: 31px;
+  }
+  .card {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}

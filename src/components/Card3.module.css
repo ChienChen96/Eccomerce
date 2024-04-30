@@ -1,0 +1,105 @@
+.dishIcon {
+  height: 176px;
+  width: 176px;
+  position: relative;
+  object-fit: cover;
+}
+.dishWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl);
+}
+.torradasDeParma {
+  align-self: stretch;
+  position: relative;
+  line-height: 34px;
+  font-family: var(--poppins-100-medium);
+  white-space: pre-wrap;
+}
+.connectedComponent {
+  flex: 1;
+  position: relative;
+  line-height: 160%;
+}
+.text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--roboto-smaller-regular-size);
+  color: var(--light-light-400);
+}
+.shortestPathTree {
+  flex: 1;
+  position: relative;
+  line-height: 52px;
+  white-space: nowrap;
+}
+.text1,
+.textWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text1 {
+  flex: 1;
+}
+.textWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-lg);
+  font-size: var(--poppins-400-medium-size);
+  color: var(--tints-cake-200);
+}
+.pencilIcon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: 16px;
+  right: 18px;
+}
+.card {
+  width: 304px;
+  border-radius: var(--br-5xs);
+  background-color: var(--dark-dark-200);
+  border: 1px solid var(--dark-dark-300);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-46xl) var(--padding-4xl);
+  position: relative;
+  gap: var(--gap-mini);
+  debug_commit: 1de1738;
+  text-align: center;
+  font-size: var(--roboto-bigger-bold-size);
+  color: var(--light-light-300);
+  font-family: var(--roboto-smaller-regular);
+}
+@media screen and (max-width: 1050px) {
+  .shortestPathTree {
+    font-size: var(--font-size-7xl);
+    line-height: 41px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .shortestPathTree,
+  .torradasDeParma {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .shortestPathTree {
+    line-height: 31px;
+  }
+  .card {
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
